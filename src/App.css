@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@300;500&family=Lilita+One&family=Madimi+One&family=Modak&family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@300;500&family=Lilita+One&family=Madimi+One&family=McLaren&family=Modak&family=Nova+Round&display=swap');
+
+.highlightPink {
+  font-weight: 400;
+  color: #AD0035;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.highlightBlue {
+  font-weight: 400;
+  color: #246DC3;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-center {
   display: flex;
-  flex-direction: column;
+  padding: 0;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: start;
+  margin-left: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-center ul {
+  display: flex;
+  padding: 0;
+}
+.nav-center ul li {
+  list-style-type: none;
+  margin: 0 1.25rem;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-right {
+  margin-left: auto;
+  border-radius: 5px;
+  align-items: center;
+  padding: 20px;
 }
