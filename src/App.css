@@ -11,6 +11,11 @@
   color: #246DC3;
 }
 
+.highlightLink {
+  font-weight: 600;
+  color: #CD5A79;
+}
+
 .nav-center {
   display: flex;
   padding: 0;
