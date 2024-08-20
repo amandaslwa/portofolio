@@ -5,6 +5,7 @@ import NotFound from './Routes/NotFound';
 import Home from './Routes/Home';
 import Navbar from './Components/Navbar';
 import Projects from './Routes/Projects';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <>
             <Navbar />
             <Home />
+            <Footer />
           </>
         }
       />
@@ -24,6 +26,7 @@ function App() {
           <>
             <Navbar />
             <Projects />
+            <Footer />
           </>
         }
       />

@@ -1,6 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@300;500&family=Lilita+One&family=Madimi+One&family=Modak&family=Nova+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@300;500&family=Lilita+One&family=Madimi+One&family=McLaren&family=Modak&family=Nova+Round&display=swap');
 
+.gradationPink {
+  background: linear-gradient(120deg, #CD3C68 0%, #AD0035 100%);
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  background-size: cover;
+  display:flex;
+  justify-content: start;
+  border-radius: 10;
+}
+
+.gradationPink:hover {
+  animation-name: gradientPink;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+  background: linear-gradient(120deg, #CD3C68 100%, #AD0035);
+  border-radius: 10;
+}
+
+@keyframes gradientPink {
+  0%   {background: linear-gradient(120deg, #CD3C68 0%, #AD0035 100%)}
+  10%  {background: linear-gradient(120deg, #CD3C68 10%, #AD0035)}
+  20%  {background: linear-gradient(120deg, #CD3C68 20%, #AD0035)}
+  30%  {background: linear-gradient(120deg, #CD3C68 30%, #AD0035)}
+  40%  {background: linear-gradient(120deg, #CD3C68 40%, #AD0035)}
+  50%  {background: linear-gradient(120deg, #CD3C68 50%, #AD0035)}
+  60%  {background: linear-gradient(120deg, #CD3C68 60%, #AD0035)}
+  70%  {background: linear-gradient(120deg, #CD3C68 70%, #AD0035)}
+  80%  {background: linear-gradient(120deg, #CD3C68 80%, #AD0035)}
+  90%  {background: linear-gradient(120deg, #CD3C68 90%, #AD0035)}
+  100%  {background: linear-gradient(120deg, #CD3C68 100%, #AD0035)}
+}
+
+.gradationBlue {
+  background: linear-gradient(120deg, #468ee0 0%, #1c6ac4 100%);
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  background-size: cover;
+  display:flex;
+  justify-content: start;
+  border-radius: 10;
+}
+
+.gradationBlue:hover {
+  animation-name: gradientBlue;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+  background: linear-gradient(120deg, #468ee0 100%, #1c6ac4);
+  border-radius: 10;
+}
+
+@keyframes gradientBlue {
+  0%   {background: linear-gradient(120deg, #468ee0 0%, #1c6ac4 100%)}
+  10%  {background: linear-gradient(120deg, #468ee0 10%, #1c6ac4)}
+  20%  {background: linear-gradient(120deg, #468ee0 20%, #1c6ac4)}
+  30%  {background: linear-gradient(120deg, #468ee0 30%, #1c6ac4)}
+  40%  {background: linear-gradient(120deg, #468ee0 40%, #1c6ac4)}
+  50%  {background: linear-gradient(120deg, #468ee0 50%, #1c6ac4)}
+  60%  {background: linear-gradient(120deg, #468ee0 60%, #1c6ac4)}
+  70%  {background: linear-gradient(120deg, #468ee0 70%, #1c6ac4)}
+  80%  {background: linear-gradient(120deg, #468ee0 80%, #1c6ac4)}
+  90%  {background: linear-gradient(120deg, #468ee0 90%, #1c6ac4)}
+  100%  {background: linear-gradient(120deg, #468ee0 100%, #1c6ac4)}
+}
+
 .highlightPink {
   font-weight: 400;
   color: #AD0035;
@@ -8,7 +74,7 @@
 
 .highlightBlue {
   font-weight: 400;
-  color: #246DC3;
+  color: #1c6ac4;
 }
 
 .highlightLink {
@@ -36,9 +102,20 @@
   padding-bottom: 10px;
 }
 
-.nav-right {
-  margin-left: auto;
-  border-radius: 5px;
+.foot-center {
+  display: flex;
+  padding: 0;
   align-items: center;
-  padding: 20px;
+  justify-content: start;
+}
+
+.foot-center ul {
+  display: flex;
+  padding: 0;
+}
+.foot-center ul li {
+  list-style-type: none;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
