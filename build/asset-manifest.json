@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.163f53de.css",
-    "main.js": "./static/js/main.3172759c.js",
+    "main.js": "./static/js/main.edc02358.js",
     "static/media/teratai.png": "./static/media/teratai.5af6901967ef2fa02302.png",
     "static/media/home.png": "./static/media/home.d5ba9e5f1e3cdbcd4ed8.png",
     "static/media/mm2.png": "./static/media/mm2.a4e9540891aacec481e3.png",
@@ -9,10 +9,10 @@
     "static/media/mm1.png": "./static/media/mm1.cdb150977c3cac8d85f6.png",
     "index.html": "./index.html",
     "main.163f53de.css.map": "./static/css/main.163f53de.css.map",
-    "main.3172759c.js.map": "./static/js/main.3172759c.js.map"
+    "main.edc02358.js.map": "./static/js/main.edc02358.js.map"
   },
   "entrypoints": [
     "static/css/main.163f53de.css",
-    "static/js/main.3172759c.js"
+    "static/js/main.edc02358.js"
   ]
 }
