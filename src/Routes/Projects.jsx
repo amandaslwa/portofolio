@@ -1,5 +1,5 @@
 import { Heading, Box, Text, Image, Flex, Spacer } from '@chakra-ui/react';
-import Teratai from '../Images/teratai.png';
+import Teratai from '../Images/scan.png';
 import { Link } from 'react-router-dom';
 import '../App.css';
 
