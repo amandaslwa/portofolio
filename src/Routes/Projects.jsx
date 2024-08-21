@@ -20,7 +20,7 @@ function Projects() {
             </Heading>
             <Box borderRadius={'10'} alignItems={{base: 'start', md:'start'}} justifyContent={'center'} background={'white'} fontFamily={'McLaren'} padding={'5'}>
                 <Flex gap={'5'} direction={{base:'column', md:'row'}}>
-                    <Image src={Teratai} width={{base:'100%', md:'60%'}} />
+                    <Image src={Teratai} width={{base:'100%', md:'57%'}} height={'100%'} alignSelf={'center'}/>
                     <Flex gap={'5'} direction={'column'}>
                         <Heading fontFamily={'McLaren'} fontSize={{base:'lg', md:'xl'}} color={'#1c6ac4'} fontWeight={'600'}>
                             Teratai
