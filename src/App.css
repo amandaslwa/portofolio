@@ -67,6 +67,39 @@
   100%  {background: linear-gradient(120deg, #468ee0 100%, #1c6ac4)}
 }
 
+.gradationPurple {
+  background: linear-gradient(120deg, #8c70d5 0%, #603cba 100%);
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  background-size: cover;
+  display:flex;
+  justify-content: start;
+  border-radius: 10;
+}
+
+.gradationPurple:hover {
+  animation-name: gradientPurple;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+  background: linear-gradient(120deg, #8c70d5 100%, #603cba);
+  border-radius: 10;
+}
+
+@keyframes gradientPurple {
+  0%   {background: linear-gradient(120deg, #8c70d5 0%, #603cba 100%)}
+  10%  {background: linear-gradient(120deg, #8c70d5 10%, #603cba)}
+  20%  {background: linear-gradient(120deg, #8c70d5 20%, #603cba)}
+  30%  {background: linear-gradient(120deg, #8c70d5 30%, #603cba)}
+  40%  {background: linear-gradient(120deg, #8c70d5 40%, #603cba)}
+  50%  {background: linear-gradient(120deg, #8c70d5 50%, #603cba)}
+  60%  {background: linear-gradient(120deg, #8c70d5 60%, #603cba)}
+  70%  {background: linear-gradient(120deg, #8c70d5 70%, #603cba)}
+  80%  {background: linear-gradient(120deg, #8c70d5 80%, #603cba)}
+  90%  {background: linear-gradient(120deg, #8c70d5 90%, #603cba)}
+  100%  {background: linear-gradient(120deg, #8c70d5 100%, #603cba)}
+}
+
 .highlightPink {
   font-weight: 400;
   color: #AD0035;
@@ -75,6 +108,11 @@
 .highlightBlue {
   font-weight: 400;
   color: #1c6ac4;
+}
+
+.highlightPurple {
+  font-weight: 400;
+  color: #7B11BC;
 }
 
 .highlightLink {

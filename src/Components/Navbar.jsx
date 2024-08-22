@@ -12,14 +12,14 @@ function Navbar() {
       name: 'Home',
       to: '/',
     },
-    // {
-    //   name: 'About',
-    //   to: '/#about',
-    // },
     {
       name: 'Projects',
       to: '/projects',
     },
+    // {
+    //   name: 'Portofolios',
+    //   to: '/portos',
+    // },
   ];
 
   return (
@@ -44,7 +44,7 @@ function Navbar() {
                     {
                         Navbar.map(navItem => {
                         return <li>
-                                    <Link href={navItem.to} color={location.pathname == navItem.to ? location.pathname == '/' ? '#AD0035' : '#1c6ac4' : location.pathname != '/' ? '#5F8ABD' : '#CD5A79'} _hover={{color:'#603cba'}}>
+                                    <Link href={navItem.to} color={location.pathname == navItem.to ? '#AD0035' : '#CD5A79'} _hover={{color:'#CD3C68'}}>
                                         {navItem.name}
                                     </Link>
                                 </li>

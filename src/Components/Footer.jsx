@@ -45,8 +45,8 @@ function Footer() {
        >
             <Flex width={'100%'} direction={'column'} gap={'1'}>
                 <Flex direction={'row'} gap={'2'} justifyContent={'start'}>
-                    <FontAwesomeIcon icon={'fa-solid fa-envelope'} color={location.pathname == '/' ? '#AD0035' : '#1c6ac4'} size={'xl'}/>
-                    <Text fontFamily={'McLaren'} textAlign={'left'} justifySelf={'center'} fontSize={{base:'md', md:'lg'}} color={location.pathname == '/' ? '#CD5A79' : '#5F8ABD'}>meluatke@gmail.com</Text>
+                    <FontAwesomeIcon icon={'fa-solid fa-envelope'} color={'#AD0035'} size={'xl'}/>
+                    <Text fontFamily={'McLaren'} textAlign={'left'} justifySelf={'center'} fontSize={{base:'md', md:'lg'}} color={'#CD5A79'}>meluatke@gmail.com</Text>
                 </Flex>
                 <Box className='foot-center' display='flex' justifyContent={'start'}>
                     <ul>
@@ -54,7 +54,7 @@ function Footer() {
                         Footer.map(footItem => {
                         return <li>
                                     <Link href={footItem.to} target='_blank' marginRight={'1.25rem'}>
-                                        <FontAwesomeIcon icon={footItem.icon} color={location.pathname == '/' ? '#AD0035' : '#1c6ac4'} size='xl'/>
+                                        <FontAwesomeIcon icon={footItem.icon} color={'#AD0035'} size='xl'/>
                                     </Link>
                                 </li>
                         })

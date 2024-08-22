@@ -6,6 +6,8 @@ import Home from './Routes/Home';
 import Navbar from './Components/Navbar';
 import Projects from './Routes/Projects';
 import Footer from './Components/Footer';
+import Portos from './Routes/Portos';
+import PosTeratai from './Routes/PosTeratai';
 
 function App() {
   return (
@@ -26,6 +28,26 @@ function App() {
           <>
             <Navbar />
             <Projects />
+            <Footer />
+          </>
+        }
+      />
+      <Route 
+        path={'/portos'}
+        element={
+          <>
+            <Navbar />
+            <Portos />
+            <Footer />
+          </>
+        }
+      />
+      <Route 
+        path={'/portos/pos-teratai'}
+        element={
+          <>
+            <Navbar />
+            <PosTeratai />
             <Footer />
           </>
         }
