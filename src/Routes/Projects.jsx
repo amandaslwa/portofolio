@@ -23,12 +23,12 @@ function Projects() {
                     <Image src={Teratai} width={{base:'100%', md:'57%'}} height={'100%'} alignSelf={'center'}/>
                     <Flex gap={'5'} direction={'column'}>
                         <Heading fontFamily={'McLaren'} fontSize={{base:'lg', md:'xl'}} color={'#CD3C68'} fontWeight={'600'}>
-                            Teratai
+                            Trace
                         </Heading>
                         <Text color={'#CD5A79'} fontSize={{base:'md', md:'lg'}}>
-                            <span className='highlightPink'>Teratai (Telusur dan Pantau Halal Indonesia)</span> is a <span className='highlightPink'>halal traceability supply chain guarantee system</span>, especially for meat based product. This web application records information regarding the halal status of a product, from the initial production stages to the materials that will be used in the making of ready-to-eat products. In this project, I am responsible for <span className={'highlightPink'}>User Research, UI/UX Design, and Front-End Website Development</span>.
+                            <span className='highlightPink'>Trace (Telusur dan Pantau Halal Indonesia)</span> is a <span className='highlightPink'>halal traceability supply chain guarantee system</span>, especially for meat based product. This web application records information regarding the halal status of a product, from the initial production stages to the materials that will be used in the making of ready-to-eat products. In this project, I am responsible for <span className={'highlightPink'}>User Research, UI/UX Design, and Front-End Website Development</span>.
                         </Text> 
-                        <Link to='https://riset.its.ac.id/teratai-dev/' target={'_blank'} width={{base:'100%', md:'100%'}} _hover={{textDecoration:'none'}}>
+                        <Link to='https://trace.halal.go.id' target={'_blank'} width={{base:'100%', md:'100%'}} _hover={{textDecoration:'none'}}>
                             <Flex borderRadius={'10'} padding={'2%'} color={'white'} fontFamily={'McLaren'} className='gradationPink'>
                                 See details
                                 <Spacer /> 
