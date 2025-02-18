@@ -3,11 +3,14 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import NotFound from './Routes/NotFound';
 import Home from './Routes/Home';
+import AboutMe from './Routes/AboutMe';
 import Navbar from './Components/Navbar';
 import Projects from './Routes/Projects';
 import Footer from './Components/Footer';
 import Portos from './Routes/Portos';
 import PosTeratai from './Routes/PosTeratai';
+import WaveBox from './Components/WaveBox';
+import Experiences from './Routes/Experiences';
 
 function App() {
   return (
@@ -18,6 +21,10 @@ function App() {
           <>
             <Navbar />
             <Home />
+            <WaveBox waveColor={'linear(to-r, #FFE6E8, #FFA7BC)'} fillColor={'#CD3C68'}/>
+            <AboutMe />
+            <WaveBox waveColor={'linear(to-r, #CD3C68, #CD3C68)'} fillColor={'#FFA7BC'}/>
+            <Experiences />
             <Footer />
           </>
         }
