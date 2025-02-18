@@ -1,21 +1,13 @@
-import { Heading, Box, Text, Image, Flex, Link, Spacer } from '@chakra-ui/react';
+import { Heading, Box, Text, Image, Flex, Link } from '@chakra-ui/react';
 // import Logo from "../img/logo.png";
 import Pic from '../Images/home.png';
 import MM1 from '../Images/mm1.png';
 import MM2 from '../Images/mm2.png';
 import '../App.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
-
-library.add(fab, fas, far);
-
 function Home() {
   return (
-    <Box bgGradient='linear(to-r, #FFE6E8, #FFA7BC)' width={'100%'} height={{base:'100vh', md:'100vh'}} padding={'5% 10% 10% 10%'} alignContent={'center'}>
+    <Box bgGradient='linear(to-r, #FFE6E8, #FFA7BC)' width={'100%'} height='auto' padding={'5% 10% 10% 10%'} alignContent={'center'}>
         <Flex gap={'5'} direction={{base:'column-reverse', md:'row'}} width={'100%'} justifyContent={'center'}>
             <Flex direction={'column'} alignItems={{base: 'start', md:'start'}} justifyContent={'center'} width={{base:'100%', md:'70%'}} gap={{base:'5', md:'10'}}>
                 <Heading size={{base:'2xl', md:'3xl'}} color="#CD3C68" fontFamily={'Modak'} fontWeight={'light'}>

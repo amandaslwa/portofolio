@@ -1,4 +1,4 @@
-import { Heading, Box, Text, Image, Flex, Link, Spacer, Grid } from '@chakra-ui/react';
+import { Heading, Box, Text, Image, Flex, Spacer, Grid } from '@chakra-ui/react';
 import '../App.css';
 import isef from '../Images/isef.png';
 import sch from '../Images/sch.JPG';

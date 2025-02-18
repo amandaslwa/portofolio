@@ -1,15 +1,6 @@
-import { Heading, Box, Text, Image, Flex, Spacer, Link } from '@chakra-ui/react';
-import Teratai from '../Images/pos.png';
+import { Heading, Box, Text, Image, Flex } from '@chakra-ui/react';
 import DD from '../Images/dd.png';
 import '../App.css';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
-
-library.add(fab, fas, far);
 
 function PosTeratai() {
   return (

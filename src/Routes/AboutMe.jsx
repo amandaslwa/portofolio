@@ -1,4 +1,4 @@
-      import { Heading, Box, Text, Image, Flex, Link, Spacer } from '@chakra-ui/react';
+      import { Heading, Box, Text, Flex } from '@chakra-ui/react';
       import '../App.css';
       
       function AboutMe() {
