@@ -5,8 +5,7 @@ import SP1 from "../Images/sp1.png";
 
 function Navbar() {
   const location = useLocation();
-
-  console.log(location.pathname)
+  
   const Navbar= [
     {
       name: 'Home',
