@@ -23,7 +23,7 @@ function Projects() {
                     <Image src={Teratai} width={{base:'100%', md:'57%'}} height={'100%'} alignSelf={'center'}/>
                     <Flex gap={'5'} direction={'column'}>
                         <Heading fontFamily={'McLaren'} fontSize={{base:'lg', md:'xl'}} color={'#CD3C68'} fontWeight={'600'}>
-                            Trace
+                            Trace Halal
                         </Heading>
                         <Text color={'#CD5A79'} fontSize={{base:'md', md:'lg'}}>
                             <span className='highlightPink'>Trace (Telusur dan Pantau Halal Indonesia)</span> is a <span className='highlightPink'>halal traceability supply chain guarantee system</span>, especially for meat based product. This web application records information regarding the halal status of a product, from the initial production stages to the materials that will be used in the making of ready-to-eat products. In this project, I am responsible for <span className={'highlightPink'}>User Research, UI/UX Design, and Front-End Website Development</span>.
