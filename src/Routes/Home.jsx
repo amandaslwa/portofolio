@@ -1,6 +1,6 @@
 import { Heading, Box, Text, Image, Flex, Link } from '@chakra-ui/react';
 // import Logo from "../img/logo.png";
-import Pic from '../Images/home.png';
+import Pic from '../Images/me.JPG';
 import MM1 from '../Images/mm1.png';
 import MM2 from '../Images/mm2.png';
 import '../App.css';
@@ -13,14 +13,14 @@ function Home() {
                 <Heading size={{base:'2xl', md:'3xl'}} color="#CD3C68" fontFamily={'Modak'} fontWeight={'light'}>
                     Hi! Welcome to my personal web
                 </Heading>
-                <Text color={'#CD5A79'} fontSize={{base:'lg', md:'xl'}} fontFamily={'McLaren'}>My name is <span className='highlightPink'>Amanda</span>. I am an undergraduate university student of Sepuluh Nopember Institute of Technology (ITS). I love to <span className='highlightPink'>design UI and UX aspects</span> and personally show ‘em in <span className='highlightPink'>fun and colorful</span> way.</Text>
+                <Text color={'#CD5A79'} fontSize={{base:'lg', md:'xl'}} fontFamily={'McLaren'}>My name is <span className='highlightPink'>Amanda</span>. I am a fresh graduate university student of Sepuluh Nopember Institute of Technology (ITS). I love to <span className='highlightPink'>design UI and UX aspects</span> and personally show ‘em in <span className='highlightPink'>fun and colorful</span> way.</Text>
                 <Link href='/#about' width={{base:'100%', md:'95%'}} _hover={{textDecoration:'none'}}>
                   <Flex borderRadius={'10'} padding={'2%'} color={'white'} fontFamily={'McLaren'} className='gradationPink'>
                     Know more about me
                   </Flex>
                 </Link>
             </Flex>
-            <Image src={Pic} position={'relative'} width={{base:'50%', md:'30%'}} height={{base:'50%', md:'100%'}} alignSelf={'center'}/>
+            <Image borderRadius={'50%'} border={'5px solid #CD5A79'} className={'frame'} src={Pic} position={'relative'} width={{base:'50%', md:'30%'}} height={{base:'50%', md:'100%'}} alignSelf={'center'}/>
         </Flex>
         <Image src={MM1} position={'absolute'} width={{base:'13%', md:'10%'}} top={{base:'10%', md:'5%'}} left={{base:'63%', md:'85%'}} display={{base:'none', md:'flex'}}/>
         <Image src={MM2} position={'absolute'} width={{base:'20%', md:'15%'}} top={{base:'12%', md:'12%'}} left={{base:'25%', md:'60%'}} display={{base:'none', md:'flex'}}/>
