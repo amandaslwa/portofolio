@@ -20,7 +20,7 @@ function Home() {
                   </Flex>
                 </Link>
             </Flex>
-            <Image borderRadius={'50%'} border={'5px solid #CD5A79'} className={'frame'} src={Pic} position={'relative'} width={{base:'50%', md:'30%'}} height={{base:'50%', md:'100%'}} alignSelf={'center'}/>
+            <Image borderRadius={'50%'} border={{base:'5px solid #CD5A79',md:'10px solid #CD5A79'}} className={'frame'} src={Pic} position={'relative'} width={{base:'50%', md:'30%'}} height={{base:'50%', md:'100%'}} alignSelf={'center'}/>
         </Flex>
         <Image src={MM1} position={'absolute'} width={{base:'13%', md:'10%'}} top={{base:'10%', md:'5%'}} left={{base:'63%', md:'85%'}} display={{base:'none', md:'flex'}}/>
         <Image src={MM2} position={'absolute'} width={{base:'20%', md:'15%'}} top={{base:'12%', md:'12%'}} left={{base:'25%', md:'60%'}} display={{base:'none', md:'flex'}}/>
