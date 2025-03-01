@@ -22,9 +22,9 @@ function App() {
             <Navbar />
             <Home />
             <WaveBox waveColor={'linear(to-r, #FFE6E8, #FFA7BC)'} fillColor={'#CD3C68'}/>
-            <AboutMe />
-            <WaveBox waveColor={'linear(to-r, #CD3C68, #CD3C68)'} fillColor={'#FFA7BC'}/>
             <Experiences />
+            <WaveBox waveColor={'linear(to-r, #CD3C68, #CD3C68)'} fillColor={'#FFA7BC'}/>
+            <AboutMe />
             <Footer />
           </>
         }

@@ -13,7 +13,7 @@ library.add(fab, fas, far);
 
 function Projects() {
   return (
-    <Box bgGradient='linear(to-r, #FFE6E8, #FFA7BC)' width={'100%'} height={{base:'100%', md:'100vh'}} padding={'5% 10% 10% 10%'} alignContent={'center'}>
+    <Box bgGradient='linear(to-r, #FFE6E8, #FFA7BC)' width={'100%'} height={{base:'100%', md:'auto'}} padding={'5% 10% 10% 10%'} alignContent={'center'}>
         <Flex gap={{base:'5', md:'10'}} direction={'column'} width={'100%'} justifyContent={'center'}>
             <Heading size={{base:'2xl', md:'3xl'}} color={'#CD3C68'} textAlign={'center'} fontFamily={'Modak'} fontWeight={'light'}>
                 Ongoing / Finished Projects

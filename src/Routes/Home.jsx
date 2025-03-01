@@ -7,7 +7,7 @@ import '../App.css';
 
 function Home() {
   return (
-    <Box bgGradient='linear(to-r, #FFE6E8, #FFA7BC)' width={'100%'} height='auto' padding={'5% 10% 10% 10%'} alignContent={'center'}>
+    <Box bgGradient='linear(to-r, #FFE6E8, #FFA7BC)' width={'100%'} height={{base:'100%', md:'auto'}} padding={'5% 10% 10% 10%'} alignContent={'center'}>
         <Flex gap={'5'} direction={{base:'column-reverse', md:'row'}} width={'100%'} justifyContent={'center'}>
             <Flex direction={'column'} alignItems={{base: 'start', md:'start'}} justifyContent={'center'} width={{base:'100%', md:'70%'}} gap={{base:'5', md:'10'}}>
                 <Heading size={{base:'2xl', md:'3xl'}} color="#CD3C68" fontFamily={'Modak'} fontWeight={'light'}>
@@ -20,7 +20,7 @@ function Home() {
                   </Flex>
                 </Link>
             </Flex>
-            <Image borderRadius={'50%'} border={{base:'5px solid #CD5A79',md:'10px solid #CD5A79'}} className={'frame'} src={Pic} position={'relative'} width={{base:'50%', md:'30%'}} height={{base:'50%', md:'100%'}} alignSelf={'center'}/>
+            <Image borderRadius={'5%'} border={{base:'5px solid #CD5A79',md:'10px solid #CD5A79'}} className={'frame'} src={Pic} position={'relative'} width={{base:'50%', md:'30%'}} height={{base:'50%', md:'100%'}} alignSelf={'center'}/>
         </Flex>
         <Image src={MM1} position={'absolute'} width={{base:'13%', md:'10%'}} top={{base:'10%', md:'5%'}} left={{base:'63%', md:'85%'}} display={{base:'none', md:'flex'}}/>
         <Image src={MM2} position={'absolute'} width={{base:'20%', md:'15%'}} top={{base:'12%', md:'12%'}} left={{base:'25%', md:'60%'}} display={{base:'none', md:'flex'}}/>

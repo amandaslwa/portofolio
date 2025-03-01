@@ -3,9 +3,9 @@
       
       function AboutMe() {
         return (
-            <Box id={'about'} background={'#CD3C68'} width={'100%'} height={{base:'100%', md:'100vh'}} padding={'5% 10% 10% 10%'} alignContent={'center'}>
+            <Box id={'about'} background={'#FFA7BC'} width={'100%'} height={{base:'100%', md:'auto'}} padding={'5% 10% 10% 10%'} alignContent={'center'}>
                 <Flex direction={'column'} alignItems={{base: 'start', md:'start'}} justifyContent={'center'} width={{base:'100%', md:'100%'}} gap={{base:'5', md:'10'}}>
-                    <Heading size={{base:'2xl', md:'3xl'}} color="white" fontFamily={'Modak'} fontWeight={'light'}>
+                    <Heading size={{base:'2xl', md:'3xl'}} color="#CD3C68" fontFamily={'Modak'} fontWeight={'light'}>
                         More about me
                     </Heading>
                     <Box borderRadius={'10'} alignItems={{base: 'start', md:'start'}} justifyContent={'center'} background={'white'} fontFamily={'McLaren'} padding={'5'} width={'100%'}>
