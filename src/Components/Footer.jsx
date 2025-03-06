@@ -1,5 +1,4 @@
 import '../App.css';
-import { useLocation } from 'react-router-dom'
 import { Flex, Box, Text, Link } from '@chakra-ui/react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,10 +10,7 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 library.add(fab, fas, far);
 
 function Footer() {
-  const location = useLocation();
-
-//   console.log(location)
-  const Footer= [
+  const FooterList= [
     {
       icon: 'fa-brands fa-github',
       to: 'https://github.com/amandaslwa',
@@ -26,6 +22,10 @@ function Footer() {
     {
       icon: 'fa-brands fa-square-instagram',
       to: 'https://www.instagram.com/amandaslwa',
+    },
+    {
+      icon: 'fa-brands fa-hackerrank',
+      to: 'https://www.hackerrank.com/profile/amandaslwa',
     },
     // {
     //   icon: 'fa-solid fa-envelope',
@@ -51,7 +51,7 @@ function Footer() {
                 <Box className='foot-center' display='flex' justifyContent={'start'}>
                     <ul>
                     {
-                        Footer.map(footItem => {
+                        FooterList.map(footItem => {
                         return <li>
                                     <Link href={footItem.to} target='_blank' marginRight={'1.25rem'}>
                                         <FontAwesomeIcon icon={footItem.icon} color={'#AD0035'} size='xl'/>

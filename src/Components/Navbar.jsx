@@ -1,12 +1,13 @@
 import '../App.css';
 import { useLocation } from 'react-router-dom'
+import ResponsiveNavbar from './ResponsiveNavbar';
 import { Flex, Box, HStack, Image, Link } from '@chakra-ui/react';
 import SP1 from "../Images/sp1.png";
 
 function Navbar() {
   const location = useLocation();
   
-  const Navbar= [
+  const NavList= [
     {
       name: 'Home',
       to: '/',
@@ -37,13 +38,13 @@ function Navbar() {
        >
           <Box className='nav-left' display={'flex'} width={'30%'}>
             <HStack alignItems={'center'} justifyContent={'start'} height={'100%'} className='logo-title'>
-                <Image src={SP1} width={'15%'} alt="Logo"/>
-                <Box className='nav-center' display={{base: 'flex', md: 'flex'}} justifyContent={'center'}>
+                <Image src={SP1} width={{base:'auto', md:'15%'}} alt="Logo"/>
+                <Box className='nav-center' display={{base: 'none', md: 'fkex'}} justifyContent={'center'}>
                     <ul>
                     {
-                        Navbar.map(navItem => {
+                        NavList.map(navItem => {
                         return <li>
-                                    <Link href={navItem.to} color={location.pathname == navItem.to ? '#AD0035' : '#CD5A79'} _hover={{color:'#CD3C68'}}>
+                                    <Link href={navItem.to} color={location.pathname === navItem.to ? '#AD0035' : '#CD5A79'} _hover={{color:'#CD3C68'}}>
                                         {navItem.name}
                                     </Link>
                                 </li>
@@ -52,6 +53,7 @@ function Navbar() {
                     </ul>
                 </Box>
             </HStack>
+          <ResponsiveNavbar list={NavList} display={{base:'flex', md:'none'}}/>
           </Box>
         </Flex>
   );
